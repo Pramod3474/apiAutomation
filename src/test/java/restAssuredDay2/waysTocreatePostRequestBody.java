@@ -46,7 +46,7 @@ public class waysTocreatePostRequestBody {
 
 	}
 
-	//@Test(priority=2)
+	@Test(priority=2)
 public void deleteStudent()
 {
 	given()
