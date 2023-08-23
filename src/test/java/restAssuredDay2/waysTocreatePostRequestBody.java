@@ -24,7 +24,7 @@ import org.testng.annotations.Test;
 public class waysTocreatePostRequestBody {
 	int id;
 
-	//@Test(priority=1)
+	@Test(priority=1)
 
 	public void GetStudentHashMap() {
 		HashMap data = new HashMap();
@@ -55,7 +55,7 @@ public void deleteStudent()
 	.then()
 	.statusCode(200);
 }
-	//@Test(priority=1)
+	@Test(priority=1)
 
 	public void GetStudentOrgJson() {
 		
